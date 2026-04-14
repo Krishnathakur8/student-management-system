@@ -41,7 +41,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         ArrayList<Student> list = new ArrayList<>();
 
-        loadFromFile(list);   // 🔥 important line
+        loadFromFile(list);  
 
         while(true) {
             System.out.println("1. Add Student");
